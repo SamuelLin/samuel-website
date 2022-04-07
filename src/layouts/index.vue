@@ -2,14 +2,14 @@
   <div id="layout">
     <nav class="menu">
       <ul>
-        <router-link to="/" exact-active-class="active" id="back">
+        <router-link to="/" active-class="active" id="back">
           <img src="@/assets/images/logo.png" alt="logo" />
         </router-link>
         <li>
-          <router-link to="/about" exact-active-class="active" exact>ABOUT</router-link>
+          <router-link to="/about" active-class="active" exact>ABOUT</router-link>
         </li>
         <li>
-          <router-link to="/work" exact-active-class="active" exact>WORK</router-link>
+          <router-link to="/work" active-class="active" exact>WORK</router-link>
         </li>
       </ul>
     </nav>
@@ -36,6 +36,10 @@
 }
 
 #back {
+  font-family: "Lato", sans-serif;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  transition: opacity 0.3s;
   position: absolute;
   left: 20px;
   top: -10px;
@@ -72,5 +76,25 @@ nav {
       }
     }
   }
+}
+
+.no-touchevents nav > ul li a:hover,
+.touchevents nav > ul li a:active {
+  color: black;
+}
+
+.no-touchevents nav > ul li a:hover:after,
+.no-touchevents nav > ul li a.active:after,
+.touchevents nav > ul li a.active:after {
+  content: "";
+  display: block;
+  border: 5px solid var(--color-theme-default);
+  border-top-color: transparent;
+  border-left-color: transparent;
+  width: 0;
+  height: 0;
+  position: absolute;
+  right: -0.5em;
+  top: 0.5em;
 }
 </style>
