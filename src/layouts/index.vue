@@ -30,6 +30,7 @@
 .fade-leave-active {
   transition: opacity 0.3s;
 }
+
 .fade-enter,
 .fade-leave-to {
   opacity: 0;
@@ -78,14 +79,14 @@ nav {
   }
 }
 
-.no-touchevents nav > ul li a:hover,
-.touchevents nav > ul li a:active {
+.no-touchevents nav>ul li a:hover,
+.touchevents nav>ul li a:active {
   color: black;
 }
 
-.no-touchevents nav > ul li a:hover:after,
-.no-touchevents nav > ul li a.active:after,
-.touchevents nav > ul li a.active:after {
+.no-touchevents nav>ul li a:hover:after,
+.no-touchevents nav>ul li a.active:after,
+.touchevents nav>ul li a.active:after {
   content: "";
   display: block;
   border: 5px solid var(--color-theme-default);

@@ -10,10 +10,10 @@
   color: var(--color-text-default);
 }
 
-html {
-  width: 100%;
-  height: 100%;
-}
+// html {
+//   width: 100%;
+//   height: 100%;
+// }
 
 section {
   text-align: center;
@@ -41,178 +41,18 @@ section {
   letter-spacing: .2em;
 }
 
-.sub-title,
-.timeline-title,
-.cando-list h4,
-.skill > p {
+.sub-title {
+  font-size: 20px;
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
   letter-spacing: .1em;
   text-transform: uppercase;
 }
 
-.timeline {
-  list-style: none;
-  border-left: 1px solid #ffdd00;
-  padding-left: 22px;
-  width: 80%;
-  margin: 0 auto;
-}
-
-.timeline>li {
-  position: relative;
-  margin-bottom: 2em;
-  text-align: justify;
-}
-
-.timeline>li:before,
-.no-touchevents .work h3 a:hover:before,
-.touchevents .work h3 a:active:before {
-  content: '';
-  display: block;
-  width: 0;
-  height: 0;
-  border: 10px solid #ffdd00;
-  border-top-color: transparent;
-  border-right-color: transparent;
-  border-bottom-color: transparent;
-  position: absolute;
-  left: -22px;
-  top: 0;
-}
-
-.no-touchevents .work h3 a:hover:before,
-.touchevents .work h3 a:active:before {
-  top: .2em;
-}
-
-.timeline p {
-  margin: 0;
-  line-height: 1.2em;
-  font-size: 12px;
-}
-
-.timeline p.timeline-title {
-  font-weight: 200;
-  margin: 0;
-  margin-bottom: 5px;
-  font-size: 1.1em;
-}
-
-.timeline article {
-  margin-top: 1em;
-}
-
-.cando:after,
 section:after {
   content: '';
   display: block;
   clear: both;
-}
-
-.cando-list {
-  float: left;
-  width: 33.3333%;
-  text-align: center;
-}
-
-.cando-list img,
-.habit img {
-  width: 50px;
-}
-
-.cando-list h4,
-.skill p,
-.habit p {
-  margin: 0;
-}
-
-.cando-list p {
-  padding: 0 12px;
-}
-
-.skill {
-  padding: 12px;
-  padding-top: 0;
-  width: 29%;
-  float: left;
-}
-
-.skill>p {
-  width: 82px;
-}
-
-.skill>p,
-.skill-circles,
-.skill-circles-circle {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.skill-circles {
-  width: 100px;
-  margin-left: 5px;
-}
-
-.skill-circles-circle {
-  position: relative;
-  margin-left: 5px;
-  width: 12px;
-  height: 12px;
-  transform-style: 3d;
-  perspective: 500px;
-}
-
-.circle,
-.circle-shadow {
-  width: 12px;
-  height: 12px;
-  background-color: #404040;
-  border-radius: 50%;
-}
-
-.circle {
-  transform: translateY(-12px);
-}
-
-.flipAction .flip:nth-child(1) .circle {
-  animation: flip 1s 1s linear forwards;
-}
-
-.flipAction .flip:nth-child(2) .circle {
-  animation: flip 1s 1.2s linear forwards;
-}
-
-.flipAction .flip:nth-child(3) .circle {
-  animation: flip 1s 1.4s linear forwards;
-}
-
-.flipAction .flip:nth-child(4) .circle {
-  animation: flip 1s 1.6s linear forwards;
-}
-
-.flipAction .flip:nth-child(5) .circle {
-  animation: flip 1s 1.8s linear forwards;
-}
-
-.flipAction .flip:nth-child(1) .circle-shadow {
-  animation: skew 1s 1s linear forwards;
-}
-
-.flipAction .flip:nth-child(2) .circle-shadow {
-  animation: skew 1s 1.2s linear forwards;
-}
-
-.flipAction .flip:nth-child(3) .circle-shadow {
-  animation: skew 1s 1.4s linear forwards;
-}
-
-.flipAction .flip:nth-child(4) .circle-shadow {
-  animation: skew 1s 1.6s linear forwards;
-}
-
-.flipAction .flip:nth-child(5) .circle-shadow {
-  animation: skew 1s 1.8s linear forwards;
 }
 
 @media screen and ( max-width: 780px) {

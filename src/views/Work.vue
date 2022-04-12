@@ -29,3 +29,63 @@
     </div>
   </div>
 </template>
+
+<script setup>
+import { onMounted } from 'vue'
+import ScrollReveal from 'scrollreveal';
+
+onMounted(() => {
+  ScrollReveal({
+    delay: 200,
+    scale: 0.9,
+    cleanup: true,
+  }).reveal('.fadeObject')
+})
+</script>
+
+<style lang="scss" scoped>
+.no-touchevents .work h3 a:hover,
+.touchevents .work h3 a:active {
+  color: black;
+}
+
+.no-touchevents .work h3 a:hover:before,
+.touchevents .work h3 a:active:before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border: 10px solid #ffdd00;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  position: absolute;
+  left: -22px;
+  top: 0;
+}
+
+.no-touchevents .work h3 a:hover:before,
+.touchevents .work h3 a:active:before {
+  top: .2em;
+}
+
+.work {
+  padding: 0 2em;
+
+  h3 {
+    font-family: 'Hind', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+
+    a {
+      text-decoration: underline;
+      position: relative;
+    }
+  }
+
+  p {
+    margin-top: 0;
+  }
+}
+</style>
