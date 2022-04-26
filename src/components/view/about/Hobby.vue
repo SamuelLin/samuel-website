@@ -1,7 +1,7 @@
 <template>
   <section>
-    <h3 class="sub-title fadeObject">Hobby</h3>
-    <div class="fadeObject">
+    <h3 class="sub-title">Hobby</h3>
+    <div>
       <div class="habit">
         <img src="@/assets/images/bicycle.svg" />
         <p>Bike</p>
@@ -41,6 +41,19 @@
 
   p {
     margin: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .habit {
+    width: 33.3333%;
+    margin-bottom: 1em;
+  }
+}
+
+@media screen and (max-width: 539px) {
+  .habit {
+    width: 50%;
   }
 }
 </style>

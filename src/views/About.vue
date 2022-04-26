@@ -1,7 +1,7 @@
 <template>
   <div class="container">
-    <h2 class="title-page fadeObject">ABOUT</h2>
-    <p class="fadeObject">
+    <h2 class="title-page">ABOUT</h2>
+    <p>
       Hi! I'm Samuel. I'm a web developer in Taipei, Taiwan.
       <br />A backpacker, after traveling through Australia and other country, came back to Taiwan and decided to move
       forward on web develope field.
@@ -29,7 +29,6 @@ onMounted(() => {
   ScrollReveal.debug = true;
   ScrollReveal({
     delay: 200,
-    scale: 0.9,
     cleanup: true,
     afterReveal: (domEl) => {
       if (domEl.querySelector('.skill-circles') !== null) {

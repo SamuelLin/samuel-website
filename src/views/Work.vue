@@ -30,19 +30,6 @@
   </div>
 </template>
 
-<script setup>
-import { onMounted } from 'vue'
-import ScrollReveal from 'scrollreveal';
-
-onMounted(() => {
-  ScrollReveal({
-    delay: 200,
-    scale: 0.9,
-    cleanup: true,
-  }).reveal('.fadeObject')
-})
-</script>
-
 <style lang="scss" scoped>
 .no-touchevents .work h3 a:hover,
 .touchevents .work h3 a:active {

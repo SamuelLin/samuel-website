@@ -110,5 +110,17 @@ export default {
 .flipAction .flip:nth-child(5) .circle-shadow {
   animation: skew 1s 1.8s linear forwards;
 }
+
+@media screen and (max-width: 780px) {
+  .skill {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 539px) {
+  .skill {
+    width: 100%;
+  }
+}
 </style>
 

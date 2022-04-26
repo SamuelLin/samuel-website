@@ -1,7 +1,7 @@
 <template>
   <section>
-    <h3 class="sub-title fadeObject">Experience</h3>
-    <ul class="timeline fadeObject">
+    <h3 class="sub-title">Experience</h3>
+    <ul class="timeline">
       <li>
         <p class="timeline-title">Paradise Soft</p>
         <p>2018. 11 - now</p>
@@ -92,6 +92,14 @@
 
   article {
     margin-top: 1em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .timeline article,
+  .timeline p.timeline-title {
+    text-align: left;
   }
 }
 </style>

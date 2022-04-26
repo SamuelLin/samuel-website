@@ -47,8 +47,7 @@
       background-color: var(--color-theme-default);
       color: white;
       padding: 0 5px;
-      animation: flipTitle 1.3s 1s cubic-bezier(0.49, -0.57, 0.59, 1.52)
-        forwards;
+      animation: flipTitle 1.3s 1s cubic-bezier(0.49, -0.57, 0.59, 1.52) forwards;
     }
   }
 
@@ -57,7 +56,17 @@
   }
 }
 
-.icons > a {
+.icons>a {
   margin: 0 1em;
+}
+
+@media screen and (max-width: 767px) {
+  .title {
+    top: 60%;
+  }
+
+  .title h1 {
+    font-size: 3em;
+  }
 }
 </style>

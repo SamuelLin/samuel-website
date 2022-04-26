@@ -1,7 +1,7 @@
 <template>
   <section>
-    <h3 class="sub-title fadeObject">what i can do</h3>
-    <div class="cando fadeObject">
+    <h3 class="sub-title">what i can do</h3>
+    <div class="cando">
       <div class="cando-list">
         <img src="@/assets/images/html-coding.svg" />
         <h4>coding</h4>
@@ -51,6 +51,12 @@
     content: '';
     display: block;
     clear: both;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cando-list {
+    width: 100%;
   }
 }
 </style>
