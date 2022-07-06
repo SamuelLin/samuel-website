@@ -2,13 +2,11 @@
   <div class="container">
     <h2 class="title-page">ABOUT</h2>
     <p>
-      Hi! I'm Samuel. I'm a web developer in Taipei, Taiwan.
-      <br />A backpacker, after traveling through Australia and other country, came back to Taiwan and decided to move
-      forward on web develope field.
-      Like to create awesome pages. Working with HTML5, CSS3, JavaScript and improving on JavaScript frameworks and
-      backend capability. Cheers!
-      <br />Recently fell in love with cycling, welcome to ride with me! Watch my strava page
-      <a href="https://www.strava.com/athletes/20900256" target="_blank">here</a>.
+      Hi! I'm Samuel. I'm a web / react-native developer in Taipei, Taiwan.
+      <br />I have been working holiday in Australia for two years in the past. I like to explore new knowledge and new experiences, and I like the sense of accomplishment that good products on the front end of the web bring users a good experience.
+Will self-require code quality and readability, modular functions, focus, efficiency and not being afraid of challenges are my advantages. I have good cross-team cooperation and communication skills, usually like to pay attention to the development of front-end related technologies, and communicate with colleagues. The team experience of working together and sharing.
+      <br />
+      <a href="https://www.cakeresume.com/s--sotqq-9SHHALtBmpEL-yCA--/lin-ming-ying" target="_blank">resume</a>
     </p>
     <Timeline />
     <Whatcando />

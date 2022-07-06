@@ -26,6 +26,12 @@
         </h3>
         <p>Web site for government agencies with accessibility pages.</p>
       </div>
+      <div class="work">
+        <h3>
+          <a href="http://week50k.herokuapp.com/" target="_blank">Week50k</a>
+        </h3>
+        <p>Side project to record ride path in week unit</p>
+      </div>
     </div>
   </div>
 </template>

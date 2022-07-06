@@ -15,12 +15,17 @@ const skills = [
   { name: 'jquery', capability: 5 },
   { name: 'javascript', capability: 5 },
   { name: 'vue.js', capability: 5 },
+  { name: 'nuxt.js', capability: 4 },
   { name: 'react.js', capability: 5 },
+  { name: 'reactnative', capability: 4 },
   { name: 'webpack', capability: 3 },
+  { name: 'vite', capability: 4 },
   { name: 'git', capability: 3 },
   { name: 'node.js', capability: 3 },
   { name: 'mongodb', capability: 2 },
   { name: 'testing', capability: 4 },
-  { name: 'reactnative', capability: 4 }
+  { name: 'typescript', capability: 3 },
+  { name: 'docker', capability: 0 },
+  { name: 'python', capability: 0 },
 ]
 </script>

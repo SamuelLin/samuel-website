@@ -3,7 +3,7 @@
     <h1>
       <span>SAMUEL</span> LIN
     </h1>
-    <p>FRONT END DEVELOPER</p>
+    <p>WEB / REACT-NATIVE DEVELOPER</p>
     <div class="icons">
       <a href="https://www.facebook.com/samuelhsnu" target="_blank">
         <i class="fab fa-facebook-f"></i>
