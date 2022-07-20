@@ -46,7 +46,7 @@
           <ul>
             <li>Website rebuild</li>
             <li>Build web pages with react, redux, and storybook for ui components</li>
-            <li>MaiUnit test with jest</li>
+            <li>Unit test with jest</li>
             <li>Cross-departmental UI/UX collaboration to improve user experience</li>
           </ul>
         </article>
