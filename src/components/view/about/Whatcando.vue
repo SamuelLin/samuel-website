@@ -5,7 +5,7 @@
     </h3>
     <div class="cando">
       <div class="cando-list">
-        <img src="@/assets/images/html-coding.svg">
+        <i-uil-code-branch width="50" height="50" />
         <h4>coding</h4>
         <p>
           Build customized cross-browser, cross-platform web sites and web applications with a wide array of the latest
@@ -13,12 +13,12 @@
         </p>
       </div>
       <div class="cando-list">
-        <img src="@/assets/images/tablet-smartphone-computer-checked.svg">
+        <i-ic-sharp-devices width="50" height="50" />
         <h4>responsive</h4>
         <p>Responsive web design in this moden world. Make products and services well fitting on all devices.</p>
       </div>
       <div class="cando-list">
-        <img src="@/assets/images/work-team.svg">
+        <i-uil-users-alt width="50" height="50" />
         <h4>team work</h4>
         <p>
           Implement the division of labor and make projects done faster. Study and discuss new technologies with

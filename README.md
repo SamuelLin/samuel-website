@@ -1,4 +1,5 @@
 # personal-website
 
-Hi, I'm Samuel.
-Nice to meet you!
+**[samuel-lin.com](https://www.samuel-lin.com/)**
+
+my personal website

@@ -3,19 +3,17 @@
     <h1>
       <span>SAMUEL</span> LIN
     </h1>
+    <icon-accessibility />
     <p>WEB / REACT-NATIVE DEVELOPER</p>
     <div class="icons">
-      <a href="https://www.facebook.com/samuelhsnu" target="_blank">
-        <i class="fab fa-facebook-f" />
-      </a>
       <a href="https://www.linkedin.com/in/samuelhsnu/" target="_blank">
-        <i class="fab fa-linkedin-in" />
+        <i-uil-linkedin-alt />
       </a>
       <a href="https://github.com/SamuelLin" target="_blank">
-        <i class="fab fa-github" />
+        <i-uil-github-alt />
       </a>
       <a href="mailto:samuelhsnu@gmail.com">
-        <i class="fas fa-at" />
+        <i-uil-at />
       </a>
     </div>
   </div>

@@ -5,23 +5,23 @@
     </h3>
     <div>
       <div class="habit">
-        <img src="@/assets/images/bicycle.svg">
+        <i-mdi-bike width="50" height="50" />
         <p>Bike</p>
       </div>
       <div class="habit">
-        <img src="@/assets/images/movie-theater.svg">
+        <i-ic-sharp-movie width="50" height="50" />
         <p>Movies</p>
       </div>
       <div class="habit">
-        <img src="@/assets/images/gamepad.svg">
+        <i-ri-steam-line width="50" height="50" />
         <p>Games</p>
       </div>
       <div class="habit">
-        <img src="@/assets/images/coffee.svg">
+        <i-mdi-pot-steam-outline width="50" height="50" />
         <p>Tea</p>
       </div>
       <div class="habit">
-        <img src="@/assets/images/basketball-game.svg">
+        <i-mdi-basketball width="50" height="50" />
         <p>Basketball</p>
       </div>
     </div>
@@ -32,14 +32,6 @@
 .habit {
   float: left;
   width: 20%;
-
-  &:hover img {
-    fill: var(--color-theme-default);
-  }
-
-  img {
-    width: 50px;
-  }
 
   p {
     margin: 0;

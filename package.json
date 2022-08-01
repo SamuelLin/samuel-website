@@ -13,7 +13,7 @@
     "*.{js,vue,ts,jsx,tsx}": [
       "eslint --fix"
     ],
-    "*.{html,css,less,scss,md}": [
+    "*.{css,less,scss,md}": [
       "eslint --fix"
     ]
   },
@@ -24,13 +24,15 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.25.2",
+    "@iconify/json": "^2.1.85",
     "@vitejs/plugin-vue": "^3.0.1",
     "eslint": "^8.20.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
-    "prettier": "^2.7.1",
     "sass": "^1.54.0",
     "typescript": "^4.7.4",
+    "unplugin-icons": "^0.14.8",
+    "unplugin-vue-components": "^0.21.2",
     "vite": "^3.0.4"
   }
 }
