@@ -1,10 +1,3 @@
-<template>
-  <section>
-    <h3 class="sub-title fadeObject">Skills</h3>
-    <Skill v-for="skill in skills" :skill="skill" :key="skill.name"></Skill>
-  </section>
-</template>
-
 <script setup>
 import Skill from './Skill.vue'
 
@@ -29,3 +22,12 @@ const skills = [
   { name: 'python', capability: 0 },
 ]
 </script>
+
+<template>
+  <section>
+    <h3 class="sub-title fadeObject">
+      Skills
+    </h3>
+    <Skill v-for="skill in skills" :key="skill.name" :skill="skill" />
+  </section>
+</template>

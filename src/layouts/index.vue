@@ -2,14 +2,18 @@
   <div id="layout">
     <nav class="menu">
       <ul>
-        <router-link to="/" active-class="active" id="back">
-          <img src="@/assets/images/logo.png" alt="logo" />
+        <router-link id="back" to="/" active-class="active">
+          <img src="@/assets/images/logo.svg" alt="logo">
         </router-link>
         <li>
-          <router-link to="/about" active-class="active" exact>ABOUT</router-link>
+          <router-link to="/about" active-class="active" exact>
+            ABOUT
+          </router-link>
         </li>
         <li>
-          <router-link to="/work" active-class="active" exact>WORK</router-link>
+          <router-link to="/work" active-class="active" exact>
+            WORK
+          </router-link>
         </li>
       </ul>
     </nav>

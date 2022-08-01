@@ -1,9 +1,13 @@
 <template>
   <section>
-    <h3 class="sub-title">Experience</h3>
+    <h3 class="sub-title">
+      Experience
+    </h3>
     <ul class="timeline">
       <li>
-        <p class="timeline-title">Paradise Soft</p>
+        <p class="timeline-title">
+          Paradise Soft
+        </p>
         <p>2018. 11 - 2022. 06</p>
         <p>SR. FORNTEND ENGINEER</p>
         <article>
@@ -39,10 +43,12 @@
         </article>
       </li>
       <li>
-        <p class="timeline-title">South East Travel Service Co., Ltd.</p>
+        <p class="timeline-title">
+          South East Travel Service Co., Ltd.
+        </p>
         <p>2017. 06 - 2018. 07</p>
         <p>FORNTEND ENGINEER</p>
-        <article> 
+        <article>
           <ul>
             <li>Website rebuild</li>
             <li>Build web pages with react, redux, and storybook for ui components</li>
@@ -52,7 +58,9 @@
         </article>
       </li>
       <li>
-        <p class="timeline-title">WHATSMEDIA</p>
+        <p class="timeline-title">
+          WHATSMEDIA
+        </p>
         <p>2016. 03 - 2017 .04</p>
         <p>FORNTEND ENGINEER</p>
         <article>
@@ -66,18 +74,26 @@
         </article>
       </li>
       <li>
-        <p class="timeline-title">ISMS</p>
+        <p class="timeline-title">
+          ISMS
+        </p>
         <p>2014. 10 - 2016 .02</p>
         <p>FORNTEND ENGINEER</p>
-        <article>Dental system software company, Appluco network platform, FLBK platform, responsible for web front-end,
-          serial API, json, also involved in the use of phonegap web production.</article>
+        <article>
+          Dental system software company, Appluco network platform, FLBK platform, responsible for web front-end,
+          serial API, json, also involved in the use of phonegap web production.
+        </article>
       </li>
       <li>
-        <p class="timeline-title">Institute Information Industry</p>
+        <p class="timeline-title">
+          Institute Information Industry
+        </p>
         <p>2014. 4 - 2014 .08</p>
         <p>STUDENT</p>
-        <article>Learn about web technologies here including HTML, JavaScript, CSS, and PhotoShop, Illustrator, Flash,
-          AE, etc. For a period of four months.</article>
+        <article>
+          Learn about web technologies here including HTML, JavaScript, CSS, and PhotoShop, Illustrator, Flash,
+          AE, etc. For a period of four months.
+        </article>
       </li>
     </ul>
   </section>

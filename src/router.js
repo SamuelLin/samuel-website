@@ -12,12 +12,12 @@ const routes = [
     children: [
       { path: '', component: Home },
       { path: 'about', component: About },
-      { path: 'work', component: Work }
-    ]
-  }
+      { path: 'work', component: Work },
+    ],
+  },
 ]
 
 export default createRouter({
   history: createWebHistory(),
-  routes
+  routes,
 })

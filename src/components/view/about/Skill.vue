@@ -1,25 +1,25 @@
-<template>
-  <div class="skill fadeObject">
-    <p>{{ skill.name }}</p>
-    <div class="skill-circles">
-      <div class="skill-circles-circle" v-for="n in 5" :class="{ flip: flip(n) }" :key="`${skill.name}-${n}`">
-        <div class="circle-shadow"></div>
-        <div class="circle"></div>
-      </div>
-    </div>
-  </div>
-</template>
-
 <script>
 export default {
   props: ['skill'],
   methods: {
     flip(n) {
       return n <= this.skill.capability
-    }
-  }
+    },
+  },
 }
 </script>
+
+<template>
+  <div class="skill fadeObject">
+    <p>{{ skill.name }}</p>
+    <div class="skill-circles">
+      <div v-for="n in 5" :key="`${skill.name}-${n}`" class="skill-circles-circle" :class="{ flip: flip(n) }">
+        <div class="circle-shadow" />
+        <div class="circle" />
+      </div>
+    </div>
+  </div>
+</template>
 
 <style lang="scss" scoped>
 .skill {

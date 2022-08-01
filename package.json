@@ -6,31 +6,31 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "heroku-postbuild": "npm run build",
-    "lint": "eslint -c .eslintrc.js --fix --ext .js,.vue ."
+    "lint": "eslint -c .eslintrc.js --fix --ext .js,.vue .",
+    "prepare": "husky install"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+  "lint-staged": {
+    "*.{js,vue,ts,jsx,tsx}": [
+      "eslint --fix"
+    ],
+    "*.{html,css,less,scss,md}": [
+      "eslint --fix"
+    ]
   },
   "dependencies": {
     "scrollreveal": "^4.0.9",
-    "vue": "^3.2.25",
-    "vue-router": "^4.1.2"
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.18.9",
-    "@babel/eslint-parser": "^7.18.9",
-    "@vitejs/plugin-vue": "^2.3.3",
-    "@vue/eslint-config-prettier": "^7.0.0",
+    "@antfu/eslint-config": "^0.25.2",
+    "@vitejs/plugin-vue": "^3.0.1",
     "eslint": "^8.20.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-vue": "^8.7.1",
-    "husky": "^7.0.4",
-    "lint-staged": "^12.5.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
-    "sass": "^1.53.0",
-    "vite": "^2.9.14"
+    "sass": "^1.54.0",
+    "typescript": "^4.7.4",
+    "vite": "^3.0.4"
   }
 }

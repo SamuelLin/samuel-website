@@ -6,16 +6,16 @@
     <p>WEB / REACT-NATIVE DEVELOPER</p>
     <div class="icons">
       <a href="https://www.facebook.com/samuelhsnu" target="_blank">
-        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-facebook-f" />
       </a>
       <a href="https://www.linkedin.com/in/samuelhsnu/" target="_blank">
-        <i class="fab fa-linkedin-in"></i>
+        <i class="fab fa-linkedin-in" />
       </a>
       <a href="https://github.com/SamuelLin" target="_blank">
-        <i class="fab fa-github"></i>
+        <i class="fab fa-github" />
       </a>
       <a href="mailto:samuelhsnu@gmail.com">
-        <i class="fas fa-at"></i>
+        <i class="fas fa-at" />
       </a>
     </div>
   </div>

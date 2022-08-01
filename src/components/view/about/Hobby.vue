@@ -1,25 +1,27 @@
 <template>
   <section>
-    <h3 class="sub-title">Hobby</h3>
+    <h3 class="sub-title">
+      Hobby
+    </h3>
     <div>
       <div class="habit">
-        <img src="@/assets/images/bicycle.svg" />
+        <img src="@/assets/images/bicycle.svg">
         <p>Bike</p>
       </div>
       <div class="habit">
-        <img src="@/assets/images/movie-theater.svg" />
+        <img src="@/assets/images/movie-theater.svg">
         <p>Movies</p>
       </div>
       <div class="habit">
-        <img src="@/assets/images/gamepad.svg" />
+        <img src="@/assets/images/gamepad.svg">
         <p>Games</p>
       </div>
       <div class="habit">
-        <img src="@/assets/images/coffee.svg" />
+        <img src="@/assets/images/coffee.svg">
         <p>Tea</p>
       </div>
       <div class="habit">
-        <img src="@/assets/images/basketball-game.svg" />
+        <img src="@/assets/images/basketball-game.svg">
         <p>Basketball</p>
       </div>
     </div>

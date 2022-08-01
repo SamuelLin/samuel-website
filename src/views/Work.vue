@@ -1,6 +1,8 @@
 <template>
   <div class="container">
-    <h2 class="title-page fadeObject">WORK</h2>
+    <h2 class="title-page fadeObject">
+      WORK
+    </h2>
     <div class="works fadeObject">
       <div class="work">
         <h3>
