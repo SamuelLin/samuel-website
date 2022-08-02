@@ -1,7 +1,6 @@
 {
   "name": "samuel-website",
   "private": true,
-  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -9,15 +8,8 @@
     "lint": "eslint -c .eslintrc.js --fix --ext .js,.vue .",
     "prepare": "husky install"
   },
-  "lint-staged": {
-    "*.{js,vue,ts,jsx,tsx}": [
-      "eslint --fix"
-    ],
-    "*.{css,less,scss,md}": [
-      "eslint --fix"
-    ]
-  },
   "dependencies": {
+    "@vueuse/core": "^9.0.2",
     "scrollreveal": "^4.0.9",
     "vue": "^3.2.37",
     "vue-router": "^4.1.3"
@@ -34,5 +26,10 @@
     "unplugin-icons": "^0.14.8",
     "unplugin-vue-components": "^0.21.2",
     "vite": "^3.0.4"
+  },
+  "lint-staged": {
+    "*.{js,vue,ts,jsx,tsx}": [
+      "eslint --fix"
+    ]
   }
 }

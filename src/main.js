@@ -3,7 +3,8 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 
-import '@/assets/scss/index.scss'
+import '@/styles/index.scss'
+import '@/styles/animation.scss'
 
 const app = createApp(App)
 

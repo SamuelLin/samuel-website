@@ -9,18 +9,18 @@
 
 @keyframes skew {
   20% {
-    background-color: #404040;
+    background-color: var(--color-background-skew);
     transform: translate(1px, 2px) skew(0);
   }
   50% {
-    background-color: #ccc;
+    background-color: var(--color-background-skew-middle);
     transform: translate(3px, 3px) rotateY(180deg) translateZ(3px);
     filter: blur(3px);
     -webkit-filter: blur(3px);
   }
   90% {
+    background-color: var(--color-background-skew);
     transform: translate(1px, 2px) rotateY(360deg) skew(0) translateZ(0);
-    background-color: #404040;
   }
   100% {
     background-color: transparent;
@@ -43,6 +43,6 @@
     transform: translateY(-12px) translateZ(360deg) rotateY(0);
   }
   100% {
-    background-color: #ffdd00;
+    background-color: var(--color-theme-default);
   }
 }

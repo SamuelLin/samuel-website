@@ -3,7 +3,6 @@
     <h1>
       <span>SAMUEL</span> LIN
     </h1>
-    <icon-accessibility />
     <p>WEB / REACT-NATIVE DEVELOPER</p>
     <div class="icons">
       <a href="https://www.linkedin.com/in/samuelhsnu/" target="_blank">

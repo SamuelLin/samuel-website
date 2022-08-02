@@ -7,7 +7,10 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    DarkToggleButton: typeof import('./src/components/layout/DarkToggleButton.vue')['default']
     Hobby: typeof import('./src/components/view/about/Hobby.vue')['default']
+    ICarbonMoon: typeof import('~icons/carbon/moon')['default']
+    ICarbonSun: typeof import('~icons/carbon/sun')['default']
     IIcSharpDevices: typeof import('~icons/ic/sharp-devices')['default']
     IIcSharpMovie: typeof import('~icons/ic/sharp-movie')['default']
     IMdiBasketball: typeof import('~icons/mdi/basketball')['default']

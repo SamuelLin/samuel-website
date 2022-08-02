@@ -41,7 +41,7 @@
 <style lang="scss" scoped>
 .no-touchevents .work h3 a:hover,
 .touchevents .work h3 a:active {
-  color: black;
+  color: var(--color-text-active);
 }
 
 .no-touchevents .work h3 a:hover:before,
@@ -50,7 +50,7 @@
   display: block;
   width: 0;
   height: 0;
-  border: 10px solid #ffdd00;
+  border: 10px solid var(--color-theme-default);
   border-top-color: transparent;
   border-right-color: transparent;
   border-bottom-color: transparent;

@@ -1,13 +1,25 @@
-@import './animation.scss';
-
 :root {
   --color-theme-default: #ffdd00;
   --color-text-default: #3d3d50;
   --color-text-active: black;
+  --color-background: #fff;
+  --color-background-skew: #404040;
+  --color-background-skew-middle: #ccc;
 }
 
 * {
   color: var(--color-text-default);
+}
+
+html {
+  background-color: var(--color-background);
+}
+
+html.dark {
+  --color-text-default: #ccc;
+  --color-text-active: white;
+  --color-background: #050505;
+  --color-background-skew-middle: #333;
 }
 
 section {
@@ -38,7 +50,7 @@ section {
   -moz-transition: opacity .3s;
   transition: opacity .3s;
   font-size: 40px;
-  color: #ffdd00;
+  color: var(--color-theme-default);
   letter-spacing: .2em;
 }
 

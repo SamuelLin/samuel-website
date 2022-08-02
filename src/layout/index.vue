@@ -1,10 +1,19 @@
+<script setup>
+import { isDark } from '@/utils'
+import DarkToggleButton from '@/components/layout/DarkToggleButton.vue'
+</script>
+
 <template>
   <div id="layout">
     <nav class="menu">
       <ul>
         <router-link id="back" to="/" active-class="active">
-          <img src="@/assets/images/logo.svg" alt="logo">
+          <img v-if="isDark" src="@/assets/logo-dark.svg" alt="logo">
+          <img v-else src="@/assets/logo.svg" alt="logo">
         </router-link>
+        <li>
+          <DarkToggleButton />
+        </li>
         <li>
           <router-link to="/about" active-class="active" exact>
             ABOUT
@@ -48,7 +57,6 @@
   position: absolute;
   left: 20px;
   top: -10px;
-  color: white;
   padding: 0 5px;
   font-size: 1.5em;
   text-decoration: none;
@@ -74,6 +82,7 @@ nav {
     li {
       display: inline-block;
       padding: 5px 10px;
+      vertical-align: middle;
 
       a {
         text-decoration: none;
@@ -85,7 +94,7 @@ nav {
 
 .no-touchevents nav>ul li a:hover,
 .touchevents nav>ul li a:active {
-  color: black;
+  color: var(--color-text-active);
 }
 
 .no-touchevents nav>ul li a:hover:after,
