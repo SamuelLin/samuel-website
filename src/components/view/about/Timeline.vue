@@ -6,6 +6,14 @@
     <ul class="timeline">
       <li>
         <p class="timeline-title">
+          Nogle
+        </p>
+        <p>2022. 08 - now</p>
+        <p>FORNTEND DEVELOPER</p>
+        <article />
+      </li>
+      <li>
+        <p class="timeline-title">
           Paradise Soft
         </p>
         <p>2018. 11 - 2022. 06</p>

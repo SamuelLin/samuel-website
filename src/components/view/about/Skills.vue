@@ -17,7 +17,7 @@ const skills = [
   { name: 'node.js', capability: 3 },
   { name: 'mongodb', capability: 2 },
   { name: 'testing', capability: 4 },
-  { name: 'typescript', capability: 3 },
+  { name: 'typescript', capability: 4 },
   { name: 'docker', capability: 0 },
   { name: 'python', capability: 0 },
 ]
