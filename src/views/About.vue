@@ -13,7 +13,7 @@ onMounted(() => {
     cleanup: true,
     afterReveal: (domEl) => {
       if (domEl.querySelector('.skill-circles') !== null)
-        domEl.classList.add('flipAction')
+        domEl.classList.add('flip-action')
     },
   }).reveal('.fadeObject')
 })

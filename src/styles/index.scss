@@ -1,7 +1,7 @@
 :root {
-  --color-theme-default: #ffdd00;
+  --color-theme-default: #fd0;
   --color-text-default: #3d3d50;
-  --color-text-active: black;
+  --color-text-active: #000;
   --color-background: #fff;
   --color-background-skew: #404040;
   --color-background-skew-middle: #ccc;
@@ -15,9 +15,9 @@ html {
   background-color: var(--color-background);
 }
 
-html.dark {
+.dark {
   --color-text-default: #ccc;
-  --color-text-active: white;
+  --color-text-active: #fff;
   --color-background: #050505;
   --color-background-skew-middle: #333;
 }
@@ -25,40 +25,37 @@ html.dark {
 section {
   text-align: center;
 
-  &:after {
-    content: '';
-    display: block;
+  &::after {
     clear: both;
+    content: "";
+    display: block;
   }
 }
 
 .container {
-  width: 100%;
   box-sizing: border-box;
-  font-family: 'Hind', sans-serif;
+  font-family: Hind, sans-serif;
+  font-size: 0.9375rem;
   font-weight: 300;
-  font-size: .9375rem;
   line-height: 1.818;
-  padding: 2em;
   margin: 0 auto;
   max-width: 800px;
+  padding: 2em;
+  width: 100%;
 }
 
 .title-page {
-  font-family: 'Lato', sans-serif;
-  -webkit-transition: opacity .3s;
-  -moz-transition: opacity .3s;
-  transition: opacity .3s;
-  font-size: 40px;
   color: var(--color-theme-default);
-  letter-spacing: .2em;
+  font-family: Lato, sans-serif;
+  font-size: 40px;
+  letter-spacing: 0.2em;
+  transition: opacity 0.3s;
 }
 
 .sub-title {
+  font-family: Oswald, sans-serif;
   font-size: 20px;
-  font-family: 'Oswald', sans-serif;
   font-weight: 300;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
 }
-

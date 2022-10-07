@@ -20,31 +20,29 @@
 
 <style lang="scss">
 .title {
-  position: absolute;
-  top: 50%;
+  font-family: Lato, sans-serif;
   left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  width: 90%;
   max-width: 410px;
-  font-family: "Lato", sans-serif;
-  -webkit-transition: opacity 0.3s;
-  -moz-transition: opacity 0.3s;
-  transition: opacity 0.3s;
   padding-bottom: 50px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s;
+  width: 90%;
 
   h1 {
-    font-size: 4em;
     color: var(--color-theme-default);
-    margin: 0;
+    font-size: 4em;
     letter-spacing: 2px;
+    margin: 0;
 
     span {
-      display: inline-block;
+      animation: flip-title 1.3s 1s cubic-bezier(0.49, -0.57, 0.59, 1.52) forwards;
       background-color: var(--color-theme-default);
-      color: white;
+      color: #fff;
+      display: inline-block;
       padding: 0 5px;
-      animation: flipTitle 1.3s 1s cubic-bezier(0.49, -0.57, 0.59, 1.52) forwards;
     }
   }
 
@@ -53,7 +51,7 @@
   }
 }
 
-.icons>a {
+.icons > a {
   margin: 0 1em;
 }
 

@@ -39,48 +39,44 @@
 </template>
 
 <style lang="scss" scoped>
-.no-touchevents .work h3 a:hover,
-.touchevents .work h3 a:active {
-  color: var(--color-text-active);
-}
-
-.no-touchevents .work h3 a:hover:before,
-.touchevents .work h3 a:active:before {
-  content: '';
-  display: block;
-  width: 0;
-  height: 0;
-  border: 10px solid var(--color-theme-default);
-  border-top-color: transparent;
-  border-right-color: transparent;
-  border-bottom-color: transparent;
-  position: absolute;
-  left: -22px;
-  top: 0;
-}
-
-.no-touchevents .work h3 a:hover:before,
-.touchevents .work h3 a:active:before {
-  top: .2em;
-}
-
 .work {
   padding: 0 2em;
 
   h3 {
-    font-family: 'Hind', sans-serif;
-    text-transform: uppercase;
+    font-family: Hind, sans-serif;
     letter-spacing: 2px;
     margin-bottom: 0;
+    text-transform: uppercase;
 
     a {
-      text-decoration: underline;
       position: relative;
+      text-decoration: underline;
     }
   }
 
   p {
     margin-top: 0;
   }
+}
+
+.no-touchevents .work h3 a:hover,
+.touchevents .work h3 a:active {
+  color: var(--color-text-active);
+}
+
+.no-touchevents .work h3 a:hover::before,
+.touchevents .work h3 a:active::before {
+  border: 10px solid var(--color-theme-default);
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  content: "";
+  display: block;
+  height: 0;
+  left: -22px;
+  position: absolute;
+  top: 0;
+  top: 0.2em;
+  width: 0;
 }
 </style>

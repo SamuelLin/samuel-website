@@ -32,19 +32,19 @@
 <style lang="scss" scoped>
 .cando-list {
   float: left;
-  width: 33.3333%;
   text-align: center;
+  width: 33.3333%;
 
   img {
     width: 50px;
   }
 
   h4 {
-    font-family: 'Oswald', sans-serif;
+    font-family: Oswald, sans-serif;
     font-weight: 300;
-    letter-spacing: .1em;
-    text-transform: uppercase;
+    letter-spacing: 0.1em;
     margin: 0;
+    text-transform: uppercase;
   }
 
   p {
@@ -53,10 +53,10 @@
 }
 
 .cando {
-  &:after {
-    content: '';
-    display: block;
+  &::after {
     clear: both;
+    content: "";
+    display: block;
   }
 }
 

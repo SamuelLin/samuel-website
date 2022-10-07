@@ -40,8 +40,8 @@
 
 @media screen and (max-width: 767px) {
   .habit {
-    width: 33.3333%;
     margin-bottom: 1em;
+    width: 33.3333%;
   }
 }
 

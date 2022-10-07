@@ -50,17 +50,15 @@ import DarkToggleButton from '@/components/layout/DarkToggleButton.vue'
 }
 
 #back {
-  font-family: "Lato", sans-serif;
-  -webkit-transition: opacity 0.3s;
-  -moz-transition: opacity 0.3s;
-  transition: opacity 0.3s;
-  position: absolute;
-  left: 20px;
-  top: -10px;
-  padding: 0 5px;
+  font-family: Lato, sans-serif;
   font-size: 1.5em;
+  left: 20px;
+  padding: 0 5px;
+  position: absolute;
   text-decoration: none;
+  top: -10px;
   transform: translate(-10px, -10px);
+  transition: opacity 0.3s;
 
   img {
     width: 90px;
@@ -69,16 +67,16 @@ import DarkToggleButton from '@/components/layout/DarkToggleButton.vue'
 
 nav {
   ul {
-    font-family: "Hind", sans-serif;
-    list-style: none;
-    text-align: right;
-    margin: 2.5em auto 0;
-    padding-right: 2em;
+    box-sizing: border-box;
+    font-family: Hind, sans-serif;
     font-size: 12px;
     letter-spacing: 2px;
+    list-style: none;
+    margin: 2.5em auto 0;
+    padding-right: 2em;
     position: relative;
+    text-align: right;
     width: 100%;
-    box-sizing: border-box;
 
     li {
       display: inline-block;
@@ -86,30 +84,30 @@ nav {
       vertical-align: middle;
 
       a {
-        text-decoration: none;
         position: relative;
+        text-decoration: none;
       }
     }
   }
 }
 
-.no-touchevents nav>ul li a:hover,
-.touchevents nav>ul li a:active {
+.no-touchevents nav > ul li a:hover,
+.touchevents nav > ul li a:active {
   color: var(--color-text-active);
 }
 
-.no-touchevents nav>ul li a:hover:after,
-.no-touchevents nav>ul li a.active:after,
-.touchevents nav>ul li a.active:after {
+.no-touchevents nav > ul li a:hover::after,
+.no-touchevents nav > ul li .active::after,
+.touchevents nav > ul li .active::after {
+  border: 5px solid var(--color-theme-default);
+  border-left-color: transparent;
+  border-top-color: transparent;
   content: "";
   display: block;
-  border: 5px solid var(--color-theme-default);
-  border-top-color: transparent;
-  border-left-color: transparent;
-  width: 0;
   height: 0;
   position: absolute;
   right: -0.5em;
   top: 0.5em;
+  width: 0;
 }
 </style>

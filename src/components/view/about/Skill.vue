@@ -23,23 +23,23 @@ export default {
 
 <style lang="scss" scoped>
 .skill {
+  display: flex;
+  float: left;
   padding: 3px 0;
   width: 33%;
-  float: left;
-  display: flex;
 
   p {
-    margin: 0;
     flex: 1;
-    font-family: 'Oswald', sans-serif;
+    font-family: Oswald, sans-serif;
     font-weight: 300;
-    letter-spacing: .1em;
-    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 0;
     text-align: right;
+    text-transform: uppercase;
   }
 }
 
-.skill>p,
+.skill > p,
 .skill-circles,
 .skill-circles-circle {
   display: inline-block;
@@ -47,69 +47,68 @@ export default {
 }
 
 .skill-circles {
-  margin-left: 5px;
   flex: 1;
+  margin-left: 5px;
   text-align: left;
 }
 
 .skill-circles-circle {
-  position: relative;
-  margin-left: 5px;
-  width: 12px;
   height: 12px;
-  transform-style: 3d;
+  margin-left: 5px;
   perspective: 500px;
+  position: relative;
+  width: 12px;
 }
 
 .circle,
 .circle-shadow {
-  width: 12px;
-  height: 12px;
   background-color: #404040;
   border-radius: 50%;
+  height: 12px;
+  width: 12px;
 }
 
 .circle {
   transform: translateY(-12px);
 }
 
-.flipAction .flip:nth-child(1) .circle {
+.flip-action .flip:nth-child(1) .circle {
   animation: flip 1s 1s linear forwards;
 }
 
-.flipAction .flip:nth-child(2) .circle {
+.flip-action .flip:nth-child(2) .circle {
   animation: flip 1s 1.2s linear forwards;
 }
 
-.flipAction .flip:nth-child(3) .circle {
+.flip-action .flip:nth-child(3) .circle {
   animation: flip 1s 1.4s linear forwards;
 }
 
-.flipAction .flip:nth-child(4) .circle {
+.flip-action .flip:nth-child(4) .circle {
   animation: flip 1s 1.6s linear forwards;
 }
 
-.flipAction .flip:nth-child(5) .circle {
+.flip-action .flip:nth-child(5) .circle {
   animation: flip 1s 1.8s linear forwards;
 }
 
-.flipAction .flip:nth-child(1) .circle-shadow {
+.flip-action .flip:nth-child(1) .circle-shadow {
   animation: skew 1s 1s linear forwards;
 }
 
-.flipAction .flip:nth-child(2) .circle-shadow {
+.flip-action .flip:nth-child(2) .circle-shadow {
   animation: skew 1s 1.2s linear forwards;
 }
 
-.flipAction .flip:nth-child(3) .circle-shadow {
+.flip-action .flip:nth-child(3) .circle-shadow {
   animation: skew 1s 1.4s linear forwards;
 }
 
-.flipAction .flip:nth-child(4) .circle-shadow {
+.flip-action .flip:nth-child(4) .circle-shadow {
   animation: skew 1s 1.6s linear forwards;
 }
 
-.flipAction .flip:nth-child(5) .circle-shadow {
+.flip-action .flip:nth-child(5) .circle-shadow {
   animation: skew 1s 1.8s linear forwards;
 }
 

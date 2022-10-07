@@ -109,50 +109,50 @@
 
 <style lang="scss" scoped>
 .timeline-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: Oswald, sans-serif;
   font-weight: 300;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
 .timeline {
-  list-style: none;
   border-left: 1px solid var(--color-theme-default);
+  list-style: none;
+  margin: 0 auto;
   padding-left: 22px;
   width: 80%;
-  margin: 0 auto;
 
-  &>li {
-    position: relative;
+  > li {
     margin-bottom: 2em;
+    position: relative;
     text-align: justify;
 
-    &:before {
-      content: '';
-      display: block;
-      width: 0;
-      height: 0;
+    &::before {
       border: 10px solid var(--color-theme-default);
-      border-top-color: transparent;
-      border-right-color: transparent;
       border-bottom-color: transparent;
-      position: absolute;
+      border-right-color: transparent;
+      border-top-color: transparent;
+      content: "";
+      display: block;
+      height: 0;
       left: -22px;
+      position: absolute;
       top: 0;
+      width: 0;
     }
   }
 
   p {
-    margin: 0;
-    line-height: 1.2em;
     font-size: 12px;
+    line-height: 1.2em;
+    margin: 0;
   }
 
-  p.timeline-title {
+  .timeline-title {
+    font-size: 1.1em;
     font-weight: 200;
     margin: 0;
     margin-bottom: 5px;
-    font-size: 1.1em;
   }
 
   article {
@@ -161,9 +161,8 @@
 }
 
 @media screen and (max-width: 767px) {
-
   .timeline article,
-  .timeline p.timeline-title {
+  .timeline .timeline-title {
     text-align: left;
   }
 }
