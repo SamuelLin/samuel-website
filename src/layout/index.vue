@@ -60,6 +60,7 @@ import DarkToggleButton from '@/components/layout/DarkToggleButton.vue'
   padding: 0 5px;
   font-size: 1.5em;
   text-decoration: none;
+  transform: translate(-10px, -10px);
 
   img {
     width: 90px;

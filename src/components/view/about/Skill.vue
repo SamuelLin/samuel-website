@@ -23,18 +23,19 @@ export default {
 
 <style lang="scss" scoped>
 .skill {
-  padding: 12px;
-  padding-top: 0;
-  width: 29%;
+  padding: 3px 0;
+  width: 33%;
   float: left;
+  display: flex;
 
   p {
     margin: 0;
-    width: 82px;
+    flex: 1;
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
     letter-spacing: .1em;
     text-transform: uppercase;
+    text-align: right;
   }
 }
 
@@ -46,8 +47,9 @@ export default {
 }
 
 .skill-circles {
-  width: 100px;
   margin-left: 5px;
+  flex: 1;
+  text-align: left;
 }
 
 .skill-circles-circle {
