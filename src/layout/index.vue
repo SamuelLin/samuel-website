@@ -8,8 +8,8 @@ import DarkToggleButton from '@/components/layout/DarkToggleButton.vue'
     <nav class="menu">
       <ul>
         <router-link id="back" to="/" active-class="active">
-          <img v-if="isDark" src="@/assets/logo-dark.svg" alt="logo">
-          <img v-else src="@/assets/logo.svg" alt="logo">
+          <img v-if="isDark" src="@/assets/samuel-logo-dark.svg" alt="logo">
+          <img v-else src="@/assets/samuel-logo.svg" alt="logo">
         </router-link>
         <li>
           <DarkToggleButton />
@@ -62,7 +62,7 @@ import DarkToggleButton from '@/components/layout/DarkToggleButton.vue'
   text-decoration: none;
 
   img {
-    width: 40px;
+    width: 90px;
   }
 }
 
